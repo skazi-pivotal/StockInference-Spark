@@ -22,6 +22,10 @@ $ ./gradlew build -Dskip.tests=true
 ps: Step not necessary if you're using the pre-built VM.
 
 ## Starting a Geode cluster
+* Add the Geode Binaries to you path
+```
+$ export PATH=$PATH:./gemfire-assembly/build/install/apache-geode/bin/
+```
 
 * Starting a `locator` and a `server`
 
